@@ -43,6 +43,12 @@
 
 **Description**: Brief description of the project
 
+<!-- PROJECT_LINKS — These are auto-populated by the create-project skill -->
+| | |
+|---|---|
+| **Google Drive** | <!-- GOOGLE_DRIVE_URL --> |
+| **GitHub Repo** | <!-- GITHUB_REPO_URL --> |
+
 <img src="img/main.png" alt="main.png" width="400">
 
 ---

@@ -8,6 +8,15 @@
 <!-- Brief description: what this project does, who it's for, current state -->
 <!-- Example: "HAPImatic is a web-based dashboard for remote Claude Code sessions. Monorepo: cli/ + server/ + web/." -->
 
+## Project Links
+
+<!-- These fields are auto-populated by the create-project skill. -->
+<!-- Claude: use these links when the user references the project's Drive folder, repo, etc. -->
+
+- **GitHub Repo**: <!-- GITHUB_REPO_URL -->
+- **Google Drive**: <!-- GOOGLE_DRIVE_URL -->
+- **Local Clone**: <!-- LOCAL_CLONE_PATH -->
+
 ## Quick Reference
 
 <!-- Action-to-command mapping for the most common operations -->
