@@ -128,9 +128,11 @@ src/
 
 ## Git Workflow
 
-- Create feature branches for all work — never work on main directly
+- **Branches**: `dev` (default, active development) and `main` (production releases only)
+- Create feature branches off `dev` for all work — never commit directly to `main`
+- Merge feature branches → `dev` via PR
+- Merge `dev` → `main` only for production releases
 - Commit messages: `type(scope): description` (feat, fix, docs, chore, refactor)
-- PR required for main branch changes
 - Verify changes with `git diff` before staging
 
 ## Testing
