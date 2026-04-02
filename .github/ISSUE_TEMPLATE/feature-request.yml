@@ -1,0 +1,37 @@
+name: Feature Request
+description: Propose a new feature or improvement
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Have an idea for a new feature? Describe it below.
+
+        Before submitting, search existing issues to avoid duplicates.
+
+  - type: textarea
+    id: feature
+    attributes:
+      label: What feature would you like?
+      description: Clear description of the desired functionality
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this useful?
+      description: What problem does it solve or what workflow does it improve?
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Have you considered other approaches or workarounds?
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional context
+      description: Anything else (mockups, examples, related issues)?

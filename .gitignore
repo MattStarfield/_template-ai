@@ -1,0 +1,113 @@
+# ═══════════════════════════════════════════════
+# Claude Code — ephemeral/sensitive files
+# ═══════════════════════════════════════════════
+.claude/.credentials.json
+.claude/debug/
+.claude/projects/
+.claude/session-env/
+.claude/shell-snapshots/
+.claude/todos/
+.claude/backups/
+.claude/statsig/
+.claude/telemetry/
+.claude/cache/
+.claude/file-history/
+.claude/paste-cache/
+.claude/.CLAUDE.md.swp
+
+# ═══════════════════════════════════════════════
+# OS
+# ═══════════════════════════════════════════════
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ═══════════════════════════════════════════════
+# Editors & IDEs
+# ═══════════════════════════════════════════════
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.code-workspace
+
+# ═══════════════════════════════════════════════
+# Environment & Secrets
+# ═══════════════════════════════════════════════
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ═══════════════════════════════════════════════
+# Node.js / JavaScript / TypeScript
+# ═══════════════════════════════════════════════
+node_modules/
+dist/
+build/
+*.tgz
+.next/
+.nuxt/
+.cache/
+
+# ═══════════════════════════════════════════════
+# Python
+# ═══════════════════════════════════════════════
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+# ═══════════════════════════════════════════════
+# KiCad EDA
+# ═══════════════════════════════════════════════
+# Backup files
+*.kicad_sch-bak
+*.kicad_pcb-bak
+*-backups/
+# Rescue libraries (generated on broken lib links)
+*-rescue.kicad_sym
+*-rescue.lib
+# Lock files (KiCad session locks)
+*.lck
+
+# ═══════════════════════════════════════════════
+# Eagle CAD (legacy)
+# ═══════════════════════════════════════════════
+*.s#*
+*.b#*
+*.l#*
+
+# ═══════════════════════════════════════════════
+# Hardware / Manufacturing
+# ═══════════════════════════════════════════════
+# Gerber output directories (regenerable)
+# Uncomment if you prefer to regenerate rather than track:
+# hardware/elec/gerbers/
+# hardware/elec/fabrication/
+
+# ═══════════════════════════════════════════════
+# Build artifacts & compiled output
+# ═══════════════════════════════════════════════
+*.o
+*.elf
+*.bin
+*.hex
+.pio/
+.pioenvs/
+.piolibdeps/
+
+# ═══════════════════════════════════════════════
+# Temporary files
+# ═══════════════════════════════════════════════
+tmp/
+temp/
+*.tmp
+*.log
